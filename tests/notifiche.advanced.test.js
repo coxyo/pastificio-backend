@@ -4,7 +4,7 @@ import { io as Client } from 'socket.io-client';
 import { initializeSocketIO } from '../utils/notifiche.js';
 import { MongoMemoryServer } from 'mongodb-memory-server';
 import mongoose from 'mongoose';
-import { Ordine } from '../models/ordine.js';
+import { Ordine } from '../models/Ordine.js';
 import { User } from '../models/User.js';
 import { performance } from 'perf_hooks';
 

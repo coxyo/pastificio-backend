@@ -3,7 +3,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import logger from '../config/logger.js';
 import googleDriveService from './googleDriveService.js';
-import Ordine from '../models/ordine.js';
+import Ordine from '../models/Ordine.js';
 import User from '../models/User.js';
 
 const __filename = fileURLToPath(import.meta.url);

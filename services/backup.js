@@ -2,7 +2,7 @@ import { createWriteStream } from 'fs';
 import { join } from 'path';
 import archiver from 'archiver';
 import logger from '../config/logger.js';
-import Ordine from '../models/ordine.js';
+import Ordine from '../models/Ordine.js';
 
 class ServizioBackup {
   async creaBackup() {

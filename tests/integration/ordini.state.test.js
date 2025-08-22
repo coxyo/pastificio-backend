@@ -1,5 +1,5 @@
 // tests/integration/ordini.state.test.js
-import { Ordine } from '../../models/ordine.js';
+import { Ordine } from '../../models/Ordine.js';
 
 describe('Ordini State Management Tests', () => {
  const ordineBase = {

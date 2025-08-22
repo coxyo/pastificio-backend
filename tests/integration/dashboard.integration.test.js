@@ -1,6 +1,6 @@
 // tests/integration/dashboard.test.js
 import { jest } from '@jest/globals';
-import { Ordine } from '../../models/ordine.js';
+import { Ordine } from '../../models/Ordine.js';
 
 describe('Dashboard Tests', () => {
   describe('Statistiche Giornaliere', () => {

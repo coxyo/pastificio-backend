@@ -1,6 +1,6 @@
 // tests/ordini.test.js
 import mongoose from 'mongoose';
-import { Ordine } from '../models/ordine.js';
+import { Ordine } from '../models/Ordine.js';
 
 describe('Ordine Model Test', () => {
   beforeEach(async () => {

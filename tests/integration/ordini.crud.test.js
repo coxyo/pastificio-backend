@@ -1,6 +1,6 @@
 // tests/integration/ordini.crud.test.js
 import mongoose from 'mongoose';
-import { Ordine } from '../../models/ordine.js';
+import { Ordine } from '../../models/Ordine.js';
 
 describe('Ordini CRUD Tests', () => {
   const ordineBase = {

@@ -1,7 +1,7 @@
 // tests/api/export.api.test.js
 import request from 'supertest';
 import { app } from '../../server.js';
-import { Ordine } from '../../models/ordine.js';
+import { Ordine } from '../../models/Ordine.js';
 import fs from 'fs/promises';
 import path from 'path';
 

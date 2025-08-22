@@ -1,6 +1,6 @@
 // tests/export/export.test.js
 import { exportToExcel, exportToPDF } from '../../controllers/exportController.js';
-import { Ordine } from '../../models/ordine.js';
+import { Ordine } from '../../models/Ordine.js';
 import fs from 'fs/promises';
 import path from 'path';
 

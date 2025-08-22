@@ -973,3 +973,4 @@ export default {
   generaEtichetteProdotti,
   generaReportStatistiche
 };
+

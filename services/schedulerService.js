@@ -1,6 +1,6 @@
 // services/schedulerService.js
 import cron from 'node-cron';
-import Ordine from '../models/ordine.js';
+import Ordine from '../models/Ordine.js';
 import Cliente from '../models/Cliente.js';
 import logger from '../config/logger.js';
 

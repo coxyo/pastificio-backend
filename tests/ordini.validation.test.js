@@ -1,6 +1,6 @@
 // tests/ordini.validation.test.js
 import mongoose from 'mongoose';
-import { Ordine } from '../models/ordine.js';
+import { Ordine } from '../models/Ordine.js';
 
 describe('Ordine Validation Tests', () => {
   let ordineBase;

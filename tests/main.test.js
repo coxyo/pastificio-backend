@@ -3,7 +3,7 @@ import request from 'supertest';
 import mongoose from 'mongoose';
 import app from '../server.js';
 import User from '../models/User.js';
-import Ordine from '../models/ordine.js';
+import Ordine from '../models/Ordine.js';
 
 describe('API Tests', () => {
   let token;

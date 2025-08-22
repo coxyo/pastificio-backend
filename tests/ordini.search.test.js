@@ -1,6 +1,6 @@
 // tests/ordini.search.test.js
 import mongoose from 'mongoose';
-import { Ordine } from '../models/ordine.js';
+import { Ordine } from '../models/Ordine.js';
 
 describe('Ordine Search Tests', () => {
   const dataBase = new Date();

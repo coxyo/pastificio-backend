@@ -2,7 +2,7 @@
 import { createServer } from 'http';
 import { Server } from 'socket.io';
 import { io as Client } from 'socket.io-client';
-import { Ordine } from '../../models/ordine.js';
+import { Ordine } from '../../models/Ordine.js';
 import { setupWebSocket } from '../../websocket.js';
 
 describe('WebSocket Tests', () => {

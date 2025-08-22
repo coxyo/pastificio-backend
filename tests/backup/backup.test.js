@@ -1,6 +1,6 @@
 // tests/backup/backup.test.js
 import { crearBackup, ripristinaBackup } from '../../controllers/backupController.js';
-import { Ordine } from '../../models/ordine.js';
+import { Ordine } from '../../models/Ordine.js';
 import fs from 'fs/promises';
 import path from 'path';
 

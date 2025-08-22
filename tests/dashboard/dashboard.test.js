@@ -1,6 +1,6 @@
 // tests/dashboard/dashboard.test.js
 import mongoose from 'mongoose';
-import { Ordine } from '../../models/ordine.js';
+import { Ordine } from '../../models/Ordine.js';
 import { calcolaStatistiche, getOrdiniGiornalieri, getTrendSettimanale } from '../../controllers/dashboardController.js';
 
 describe('Test Dashboard', () => {

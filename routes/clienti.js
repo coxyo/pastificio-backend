@@ -2,7 +2,7 @@
 import express from 'express';
 import { protect, authorize } from '../middleware/auth.js';
 import Cliente from '../models/Cliente.js';
-import Ordine from '../models/ordine.js';
+import Ordine from '../models/Ordine.js';
 import logger from '../config/logger.js';
 import ExcelJS from 'exceljs';
 
