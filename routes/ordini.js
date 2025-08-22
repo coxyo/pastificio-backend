@@ -1,7 +1,7 @@
 // routes/ordini.js
 import express from 'express';
 import { protect, authorize } from '../middleware/auth.js';
-import Ordine from '../models/ordine.js';
+import Ordine from '../models/Ordine.js';
 import logger from '../config/logger.js';
 import whatsappService from '../services/whatsappService.js';
 
