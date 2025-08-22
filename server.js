@@ -43,7 +43,7 @@ import Ordine from './models/Ordine.js';
 
 // Import services
 import pdfService from './services/pdfService.js';
-import notificationService from './services/notificationService.js';
+import notificationService from './services/NotificationService.js';
 import exportService from './services/exportService.js';
 import googleDriveService from './services/googleDriveService.js';
 import backupService from './services/backupService.js';
