@@ -39,7 +39,7 @@ import logger from './config/logger.js';
 
 // Import models per i cron jobs
 import Movimento from './models/movimento.js';
-import Ordine from './models/ordine.js';
+import Ordine from './models/Ordine.js';
 
 // Import services
 import pdfService from './services/pdfService.js';
