@@ -2,7 +2,7 @@
 import mongoose from 'mongoose';
 import Movimento from '../models/movimento.js';
 import Prodotto from '../models/prodotto.js';
-import notificationService from '../services/notificationService.js';
+import notificationService from '../services/NotificationService.js';
 import logger from '../config/logger.js';
 
 // Crea nuovo movimento
