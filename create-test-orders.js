@@ -1,7 +1,7 @@
 // pastificio-backend/create-test-orders.js
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import Ordine from './models/ordine.js';
+import Ordine from './models/Ordine.js';
 
 dotenv.config();
 

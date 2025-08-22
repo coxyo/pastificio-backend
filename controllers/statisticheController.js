@@ -1,4 +1,4 @@
-import Ordine from '../models/ordine.js';
+import Ordine from '../models/Ordine.js';
 
 export const getStatistiche = async (req, res) => {
   try {

@@ -1,4 +1,4 @@
-import Ordine from '../models/ordine.js';
+import Ordine from '../models/Ordine.js';
 import logger from '../config/logger.js';
 
 const dashboardController = {

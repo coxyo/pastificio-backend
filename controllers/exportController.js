@@ -3,7 +3,7 @@ import ExcelJS from 'exceljs';
 import { createObjectCsvWriter } from 'csv-writer';
 import PDFDocument from 'pdfkit';
 import { promises as fs } from 'fs';
-import Ordine from '../models/ordine.js';
+import Ordine from '../models/Ordine.js';
 import logger from '../config/logger.js';
 
 export const exportController = {
